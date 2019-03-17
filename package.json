@@ -1,0 +1,19 @@
+{
+  "name": "augmentedwebdemo",
+  "version": "1.0.0",
+  "description": "an augmented reality web app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ankit-Gupta-1511/AugmentedWebDemo.git"
+  },
+  "author": "ankit",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ankit-Gupta-1511/AugmentedWebDemo/issues"
+  },
+  "homepage": "https://github.com/Ankit-Gupta-1511/AugmentedWebDemo#readme"
+}

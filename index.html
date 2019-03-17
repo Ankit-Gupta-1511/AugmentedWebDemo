@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <meta charset="utf-8">
+  <title>Beyond Reality Face - BRFv4 - HTML5/Javascript - minimal webcam example</title>
+
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <div class="grid-2v2">
+      <div>
+          <video  id="_webcam" style="display: none;" playsinline></video>
+          <canvas id="_imageData"></canvas>
+      </div>
+      <div>
+        <select name="object" id="object">
+          <option value="glasses">glasses</option>
+        </select>
+      </div>
+  </div>
+
+
+<script src="js/utils/BRFv4Stats.js"></script>
+<script src="js/myBRFv4Demo.js"></script>
+<script src="js/utils/myDemoOptionsUtils.js"></script>
+
+</body>
+
+</html>
