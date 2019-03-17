@@ -5,7 +5,7 @@
 (function() {
 	"use strict";
 
-	var drawing			= brfv4Example.drawing;
+	var drawing			= brfv4Instance.drawing;
 
 	var defaultValue 	= function(arg, val) {
 		return typeof arg !== 'undefined' ? arg : val;

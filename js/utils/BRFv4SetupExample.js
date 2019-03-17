@@ -9,7 +9,7 @@
 (function() {
 	"use strict";
 
-	var example		= brfv4Example;
+	var example		= brfv4Instance;
 
 	var imageData	= example.imageData;
 	var dom			= example.dom;

@@ -11,15 +11,15 @@
 	for (var key in urlMap) { labels.push(key); } // Fill in the labels.
 
 	function onSetupChosen(data) {
-		brfv4Example.init(urlMap[data.value]);
+		brfv4Manager.init(urlMap[data.value]);
 	}
 
-	if(!brfv4Example.gui.setupChooser) {
+	if(!brfv4Manager.gui.setupChooser) {
 
 		QuickSettings.useExtStyleSheet();
 
-		brfv4Example.gui.setupChooser = QuickSettings.create(
-			2, 115, "Setup Chooser", brfv4Example.dom.createDiv("_settingsRight"))
+		brfv4Manager.gui.setupChooser = QuickSettings.create(
+			2, 115, "Setup Chooser", brfv4Manager.dom.createDiv("_settingsRight"))
 			.setWidth(250)
 			.addHTML("Switch between setups", "Choose either webcam or loaded picture.<br/><br/>For webcam make sure you opened the https:// URL, otherwise it may not start in Chrome.")
 			.addDropDown("_setup", labels, onSetupChosen)

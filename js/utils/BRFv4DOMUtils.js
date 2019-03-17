@@ -16,7 +16,7 @@
 (function () {
 	"use strict";
 
-	var dom			= brfv4Example.dom;
+	var dom			= brfv4Instance.dom;
 
 	dom.stageWidth	= 640;
 	dom.stageHeight	= 480;

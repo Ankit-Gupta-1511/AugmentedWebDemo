@@ -3,11 +3,11 @@
 (function() {
   "use strict";
 
-  var t3d    = brfv4Example.drawing3d.t3d;  // ThreeJS namespace.
-  var dom    = brfv4Example.dom;      // ... e.g. the DOM handling.
+  var t3d    = brfv4Instance.drawing3d.t3d;  // ThreeJS namespace.
+  var dom    = brfv4Instance.dom;      // ... e.g. the DOM handling.
 
   if(!t3d) {
-    brfv4Example.drawing3d.t3d = {};
+    brfv4Instance.drawing3d.t3d = {};
   }
 
   t3d.setup = function(canvas) {
