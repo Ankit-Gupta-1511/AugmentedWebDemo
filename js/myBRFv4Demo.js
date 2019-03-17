@@ -84,7 +84,7 @@ var librariesToPreload = [
 
   "js/utils/BRFv4SetupExample.js",						// overall example setup
 
-  "js/main/track_single_face.js"        // face tracking script
+  "js/main/ThreeJS_example.js"        // face tracking script
 ]
 
 // 
